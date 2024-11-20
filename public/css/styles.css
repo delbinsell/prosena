@@ -1,0 +1,63 @@
+/* Estilo para el separador */
+.separador {
+    width: 1px;
+    /* Ancho de la línea */
+    height: 50px;
+    /* Altura de la línea, ajusta según tus necesidades */
+    background-color: #050505;
+    /* Color de la línea */
+    margin: 0 10px;
+    /* Espaciado a los lados */
+}
+
+.color-sena {
+    color: #00AF00;
+}
+
+.custom-navbar {
+    background-color: #00AF00;
+    /* Color de fondo verde */
+    height: 30px;
+    /* Ajustar la altura de la barra de navegación */
+}
+
+.custom-navbar .navbar-nav {
+    display: flex;
+    /* Utiliza flexbox */
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    height: 100%;
+    /* ocupe toda la altura de la barra */
+}
+
+.custom-navbar .nav-link {
+    color: white;
+    /* Color del texto */
+    height: 120%;
+    /* Asegura que el alto sea el mismo que el texto */
+    display: flex;
+    /* Utiliza flexbox para centrar verticalmente el texto */
+    align-items: center;
+    /* Centrar verticalmente */
+    padding: 0 15px;
+    /* Espaciado horizontal */
+}
+
+.nav-item {
+    margin: 0;
+    /* Eliminar margen entre elementos */
+}
+
+.separator1 {
+    width: 0.5px;
+    /* Ancho de la línea */
+    background-color: white;
+    /* Color de la línea */
+    height: 20px;
+    /* Altura de la línea */
+    margin: 0 2px;
+    /* Espacio a los lados */
+    display: inline-block;
+    /* Mostrar como bloque en línea */
+    margin-top: 5px;
+}
