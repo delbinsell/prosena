@@ -4,7 +4,7 @@ use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome');
+Route::view('/', 'inicio');
 Route::view('inicio', 'inicio');
 Route::view('comopublicar', 'comopublicar');
 Route::view('contactar', 'contactar');

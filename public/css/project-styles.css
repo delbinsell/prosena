@@ -1,0 +1,142 @@
+/* Common styles for forms and cards */
+.project-form {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Form controls styling */
+.form-control, .form-select {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #5E9D4B;
+    box-shadow: 0 0 0 0.2rem rgba(94, 157, 75, 0.25);
+}
+
+.form-label {
+    color: #5E9D4B;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Button styling */
+.btn-primary, .btn-success {
+    background-color: #5E9D4B;
+    border-color: #5E9D4B;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #4c8039;
+    border-color: #4c8039;
+    transform: translateY(-2px);
+}
+
+.btn-outline-secondary {
+    color: #5E9D4B;
+    border-color: #5E9D4B;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #5E9D4B;
+    border-color: #5E9D4B;
+    color: white;
+}
+
+/* Project details styling */
+.project-details {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.pdf-container {
+    flex: 0 0 400px;
+}
+
+.pdf-viewer {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Form floating labels */
+.form-floating {
+    margin-bottom: 1rem;
+}
+
+.form-floating label {
+    padding-left: 1rem;
+    color: #666;
+}
+
+/* Project metadata */
+.project-metadata {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.project-metadata p {
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.project-metadata strong {
+    color: #5E9D4B;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-details {
+        flex-direction: column;
+    }
+    
+    .pdf-container {
+        flex: 1;
+        width: 100%;
+    }
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form select options styling */
+select option:checked {
+    background-color: #5E9D4B;
+    color: white;
+}
+
+/* Author input styling */
+#authors-container .form-floating {
+    position: relative;
+}
+
+#authors-container .btn-outline-danger {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
